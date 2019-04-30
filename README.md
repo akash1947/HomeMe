@@ -95,8 +95,24 @@ Enlists and views listings of real estate properties present in your choice of a
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### Post
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | listingId     | String   | unique id for the user post (default field) |
+   | author        | Pointer to User| image author |
+   | image         | File     | image of the listing |
+   | comments      | String   | details of the property |
+   | favoriteCount | Number   | number of people auto favorite |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp] 
+- Home Screen
+      - HTTP GET all users /users
+      _ HTTP GET all property /property
+      _ HTTP POST register user /register
+      _ HTTP POST login /login
+      _ HTTP PUT update description /update/:id
+      _ HTTP DELETE delete request /delete/:id
+
+
