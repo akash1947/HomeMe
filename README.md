@@ -115,4 +115,66 @@ Enlists and views listings of real estate properties present in your choice of a
       _ HTTP PUT update description /update/:id
       _ HTTP DELETE delete request /delete/:id
 
+### Unit 10 
+- Creating data models & digital wireframes
 
+    - status of the issue :
+        - Created data models
+        - brainstormed & implemented some ideas about wireframes
+
+    - sprint for next week 
+        - Integrate Backend into the App
+        
+    - completed user stories
+        - integrated backend tables for feed view controller
+        
+    - Gifs :
+    <img src="http://g.recordit.co/GsZBff1biM.gif" >
+
+### Unit 11
+- Backend Integration
+    
+    - status of the issue :
+        - integrated parsing tables on backend
+        
+    - sprint for next week :
+        - Using Api to pull data for the App
+        
+    -  completed user stories
+        - implemented parsing for pulling api data
+        
+    - Gifs :
+    <img src="http://g.recordit.co/GsZBff1biM.gif" >
+    
+### Unit 12
+- Pulling data from API
+   
+   - status of the issue :
+        - researched various API's for the App
+        
+    - sprint for next week :
+        - final project deployment & testing various cases  
+        
+    - completed user stories
+        - successfully implemented APi pull request to populate the feed view
+        - implemented data store and verifiction for log in view controller
+        
+    - Gifs :
+    <img src="http://g.recordit.co/GsZBff1biM.gif" >
+    
+### Unit 13
+- Project deployment & testing
+   
+   - status of the issue :
+        - solving bugs and front end constraints
+        
+    - sprint for next week :
+        - prepare for presentation
+        
+    - completed user stories
+        - ran various tests
+        - completedm app deployment on user device
+        - fixed constraints for different views
+        
+    - Gifs :
+    <img src="http://g.recordit.co/GsZBff1biM.gif" >
